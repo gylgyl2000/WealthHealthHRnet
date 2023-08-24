@@ -1,4 +1,3 @@
-import { Button, Modal } from 'rsuite'
 import "rsuite/dist/rsuite.min.css"
 import React from 'react'
 import { HrnetModal } from "oc14-simple-react-modal-plugin"
