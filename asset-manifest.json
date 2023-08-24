@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/WealthHealthHRnet/static/css/main.578baaef.css",
-    "main.js": "/WealthHealthHRnet/static/js/main.c4a8c353.js",
+    "main.js": "/WealthHealthHRnet/static/js/main.1fd8f47b.js",
     "static/media/WealthHealth.jpg": "/WealthHealthHRnet/static/media/WealthHealth.550a61bba16a38a1d91d.jpg",
     "static/media/error-404.png": "/WealthHealthHRnet/static/media/error-404.5e3c885a76493c4a9531.png",
     "index.html": "/WealthHealthHRnet/index.html",
     "main.578baaef.css.map": "/WealthHealthHRnet/static/css/main.578baaef.css.map",
-    "main.c4a8c353.js.map": "/WealthHealthHRnet/static/js/main.c4a8c353.js.map"
+    "main.1fd8f47b.js.map": "/WealthHealthHRnet/static/js/main.1fd8f47b.js.map"
   },
   "entrypoints": [
     "static/css/main.578baaef.css",
-    "static/js/main.c4a8c353.js"
+    "static/js/main.1fd8f47b.js"
   ]
 }
