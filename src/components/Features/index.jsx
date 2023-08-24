@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default function Features() {
     return (
         <FeatureItem>
-            <FeatureIcon src={infoFeatures.image} alt={infoFeatures.alt} />
+            <FeatureIcon src={infoFeatures.image} alt={infoFeatures.alt} width='20vw' height='auto' />
             <FeatureItemTitle>{infoFeatures.title}</FeatureItemTitle>
             <p>{infoFeatures.text}</p>
         </FeatureItem>
