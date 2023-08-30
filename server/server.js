@@ -33,12 +33,11 @@ app.use(cors())
 
 // app.use(express.urlencoded({ extended: true }));
 // filesRouter(app);
-let options = {
-    maxAge: '2y',
-    etag: false
-}
+app.use(function (req, res, next) {
+    res.set('Cache-control', 'public, max-age=300')
+})
 
-app.use('/uploads', express.static('./uploads', options));
+app.use('/uploads', express.static('./uploads'));
 
 app.get('/posts', (req, res) => {
     const return_data = data => res.json(data);

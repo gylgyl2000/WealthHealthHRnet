@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default function Features() {
     return (
         <FeatureItem>
-            <FeatureIcon src={infoFeatures.image} alt={infoFeatures.alt} width='30%' height='auto' />
+            <FeatureIcon src={infoFeatures.image} alt={infoFeatures.alt} width='300' height='276' />
             <FeatureItemTitle>{infoFeatures.title}</FeatureItemTitle>
             <p>{infoFeatures.text}</p>
         </FeatureItem>
@@ -22,7 +22,7 @@ const FeatureItem = styled.div`
     }
 `
 const FeatureIcon = styled.img`
-    width: 20vw;
+    aspect-ratio: auto 300 / 276;
     border: 10px solid #596e07;
     border-radius: 15%;
     box-shadow: gray 0 5px 15px;
