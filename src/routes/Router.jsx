@@ -11,6 +11,7 @@ import { CustomProvider } from 'rsuite'
 import { useState, useEffect } from 'react'
 
 import { enUS } from 'rsuite/esm/locales'
+import "rsuite/styles/index.less"
 
 export default function Router() {
     const [theme, setTheme] = useState("dark")

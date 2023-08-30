@@ -1,4 +1,4 @@
-import "rsuite/dist/rsuite.min.css"
+
 import React from 'react'
 import { HrnetModal } from "oc14-simple-react-modal-plugin"
 
@@ -23,8 +23,8 @@ export default function Moodal({ open, handleClose, message, action, title }) {
             okButton={true}
             okButtonColor={'#fff'}
             okButtonColorHover={'#fff'}
-            okButtonBg={'#169de0'}
-            okButtonBgHover={'#25b3f5'}
+            okButtonBg={'#596e07'}
+            okButtonBgHover={'#6c830e'}
             okButtonAction={handleActionClick}
             cancelButton={true}
             cancelButtonColor={'#a4a9b3'}
